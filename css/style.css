@@ -21,5 +21,30 @@ body {
 
 .jumbotron {
   /* padding-inline-start: 5rem; */
-  padding: 2rem 2rem;
+  padding: 0rem 2rem;
+}
+
+.pp {
+  border-radius: 100%;
+}
+
+.pp-title {
+  font-size: 110px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  /* position: relative;
+  bottom: 70px;
+  z-index: 10; */
+}
+
+.pp-subtitle {
+  font-size: 22px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+}
+
+.pp-position {
+  position: relative;
+  bottom: 70px;
+  z-index: 10;
 }
