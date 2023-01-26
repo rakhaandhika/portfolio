@@ -24,8 +24,12 @@ body {
   padding: 0rem 2rem;
 }
 
-.pp {
-  border-radius: 100%;
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto Mono", monospace;
 }
 
 .pp-title {
@@ -38,8 +42,6 @@ body {
 }
 
 .pp-subtitle {
-  font-size: 22px;
-  font-family: "Roboto Mono", monospace;
   font-weight: 400;
 }
 
@@ -47,4 +49,28 @@ body {
   position: relative;
   bottom: 70px;
   z-index: 10;
+}
+
+.about {
+}
+
+.about-description {
+  padding: 0px 230px;
+  text-align: justify;
+}
+
+.text-custom {
+  color: #21c946;
+}
+
+.btn-custom {
+  color: #fff;
+  background-color: #21c946;
+  border-color: #21c946;
+}
+
+.btn-custom:hover {
+  color: #fff;
+  background-color: #21c946;
+  border-color: #03ff64;
 }

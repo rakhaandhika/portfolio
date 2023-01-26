@@ -1,76 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
 
-    <!-- Custom SCSS -->
-    <link rel="stylesheet" href="scss/custom.scss" />
+  <!-- Icon Font Stylesheet -->
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" /> -->
+  <!-- <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'> -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" /> -->
+  <link rel="stylesheet" href="https://kit.fontawesome.com/2c83bc2754.css" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/2c83bc2754.js" crossorigin="anonymous"></script>
 
-    <title>Rakha's Portfolio</title>
-  </head>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
 
-  <body>
-    <div class="gradient1">
-      <!-- navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-transparant pt-4">
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!-- Custom SCSS -->
+  <link rel="stylesheet" href="scss/custom.scss" />
+
+  <title>Rakha's Portfolio</title>
+</head>
+
+<body>
+  <!-- navbar start -->
+  <div id="navbar" class="gradient1">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparant pt-4">
+      <div class="container">
+        <a class="navbar-brand" href="#">R A E .</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skills</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false"> More </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Experience</a></li>
+                <li><a class="dropdown-item" href="#">Project</a></li>
+                <li><a class="dropdown-item" href="#">Get In Touch</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end  -->
+
+    <!-- Jumbotron start -->
+    <div class="jumbotron text-center text-white">
+      <img src="assets/profil pic.jpg" alt="" width="400" class="rounded-circle" />
+      <div class="pp-position">
+        <h1 class="display-4 pp-title">RAKHA ANDHIKA</h1>
+        <p class="lead pp-subtitle fs-4">FRONT END, UI/UX DESIGNER, VIRTUAL DESIGN, LOGOS</p>
+      </div>
+      <!-- Jumbotron end -->
+
+      <!-- About Start -->
+      <section id="about" class="poppins">
         <div class="container">
-          <a class="navbar-brand" href="#">R A E .</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> More </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Experience</a></li>
-                  <li><a class="dropdown-item" href="#">Project</a></li>
-                  <li><a class="dropdown-item" href="#">Get In Touch</a></li>
-                </ul>
-              </li>
-            </ul>
+          <div class="row text-center mb-4">
+            <div class="col ">
+              <h2>Hi, I’m <span href="youtube.com" style="color: #21C946">Rakha</span> Nice to meet you.</h2>
+            </div>
           </div>
         </div>
-      </nav>
-      <!-- navbar  -->
-
-      <!-- Jumbotron -->
-      <div class="jumbotron text-center text-white">
-          <img src="assets/profil pic.jpg" alt="" width="400" class="pp"/>
-          <div class="pp-position">
-            <h1 class="display-4 pp-title">RAKHA ANDHIKA</h1>
-            <p class="lead pp-subtitle" >front end, ui/ux designer, virtual design & logos</p>
+        <div class="row justify-content-center">
+          <div class="col about-description roboto">
+            <p>I'm a fresh graduate junior programmer from SMKN 4 Bandung, I've interest on technology things like basic
+              computer science, programming, and digital design. I've some basic skill programming language like Front
+              End Development HTML | CSS | JavaScript, Back End Development PHP | SQL and I enjoy to designing UI/UX of
+              website application. I also love digital design and always learn and practice to be good at that field.
+            </p>
+            <div class="col ps-5 pt-2">
+              <p> <i class="fa-solid fa-list-check text-custom me-3"></i>Love to learn something new everyday</p>
+              <p> <i class="fa-solid fa-bug-slash text-custom me-3"></i>Always learn from a mistakes</p> 
+              <p> <i class="fa-regular fa-eye text-custom me-3"></i>Pays attention to to details </p>
+              <p> <i class="fa-solid fa-face-grin-beam-sweat text-custom me-3"></i>I’m an adaptable and very friendly person</p>
+            </div>
+            <div class="col text-center poppins">
+              <a class="btn btn-custom" href="https://getbootstrap.com/docs/5.0/components/buttons/">Let’s be friend!</a>
+              <a class="btn btn-primary btn-lg" href="https://getbootstrap.com/docs/5.0/components/buttons/" role="button">Learn more</a>
+              <button type="button" class="btn btn-custom" name="masuk">Masuk</button>
+              <a type="button" href="https://getbootstrap.com/docs/5.0/components/buttons/" style="background-color: fff;">test</a>
+            </div>
           </div>
-    
-      <!-- Jumbotron -->
+        </div>
+      </section>
+      <!-- About End -->
+
+      <div>
+      </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
