@@ -1,0 +1,4 @@
+$spacers: (
+  6: $spacer * 2,
+);
+$negative-spacers: if($enable-negative-margins, negativify-map($spacers), null);

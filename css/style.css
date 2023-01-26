@@ -1,0 +1,19 @@
+body {
+  height: 2000px;
+  width: 100%;
+  background-color: rgba(26, 25, 29, 1);
+}
+
+.gradient1 {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(180deg, #1c8351 -5%, rgba(0, 0, 0, 0) 90%);
+}
+
+.text-navbar {
+  color: white;
+  background-color: #fff;
+}
