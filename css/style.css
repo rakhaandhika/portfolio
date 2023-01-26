@@ -11,9 +11,15 @@ body {
   left: 0px;
   top: 0px;
   background: linear-gradient(180deg, #1c8351 -5%, rgba(0, 0, 0, 0) 90%);
+  z-index: -10;
 }
 
 .text-navbar {
   color: white;
   background-color: #fff;
+}
+
+.jumbotron {
+  /* padding-inline-start: 5rem; */
+  padding: 2rem 2rem;
 }
