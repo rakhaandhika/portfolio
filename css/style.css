@@ -204,3 +204,26 @@ hr {
 a {
   text-decoration: none;
 }
+
+.section-custom {
+  padding-top: 7rem;
+  padding-bottom: 6rem;
+}
+
+.section-custom-a {
+  padding-top: 3rem;
+  padding-bottom: 0rem;
+}
+
+/* section {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+} */
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: #21c946;
+}
