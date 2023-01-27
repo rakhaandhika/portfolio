@@ -5,6 +5,9 @@ body {
   color: #fff;
 }
 
+/* 1A191D */
+/* 1C8351 */
+
 .gradient1 {
   position: absolute;
   width: 100%;
@@ -226,4 +229,25 @@ h2 {
 
 .dropdown-menu {
   --bs-dropdown-link-active-bg: #21c946;
+}
+
+.background {
+  width: 100%;
+  size: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.wave-top {
+  position: absolute;
+  top: 33rem;
+  left: 0;
+  z-index: -10;
+}
+
+.wave-bottom {
+  position: absolute;
+  /* top: rem; */
+  left: 0;
+  z-index: -11;
 }
