@@ -2,6 +2,7 @@ body {
   height: 2000px;
   width: 100%;
   background-color: rgba(26, 25, 29, 1);
+  color: #fff;
 }
 
 .gradient1 {
@@ -51,9 +52,6 @@ body {
   z-index: 10;
 }
 
-/* .about {
-} */
-
 .about-description {
   padding: 0px 230px;
   text-align: justify;
@@ -75,17 +73,38 @@ body {
   border-color: #03ff64;
 }
 
-.border-mid {
-  border-color: #a3a3a3;
-  margin: 0px;
-}
-
-.border-custom {
+.border-skills {
+  width: 80%;
   border-width: 3px 3px 3px 1.5px;
   border-style: solid;
   border-radius: 50px 50px;
-  margin: 0px 125px;
+  margin: auto;
   text-align: left;
+}
+
+.border-ene {
+  width: 77%;
+  border-width: 3px 3px 3px 1.5px;
+  border-style: solid;
+  border-radius: 50px 50px;
+  margin: auto;
+  text-align: left;
+}
+
+.margin-text {
+  margin-bottom: 0;
+}
+
+.border-custom-1 {
+  border-radius: 50px 50px 0px 0px !important;
+}
+
+.border-custom-2 {
+  border-radius: 0px 0px 50px 50px !important;
+}
+
+.spacing-ene {
+  padding: 10px 20px;
 }
 
 .mc {
@@ -94,4 +113,14 @@ body {
 
 .desc {
   text-align: center;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #21c946;
+  margin: 1rem 0;
+  padding: 0;
+  width: 33%;
 }
