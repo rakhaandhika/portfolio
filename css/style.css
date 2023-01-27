@@ -240,7 +240,7 @@ h2 {
 
 .wave-top {
   position: absolute;
-  top: 33rem;
+  /* top: 33rem; */
   left: 0;
   z-index: -10;
 }
