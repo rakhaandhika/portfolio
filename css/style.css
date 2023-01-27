@@ -83,7 +83,7 @@ body {
 }
 
 .border-ene {
-  width: 77%;
+  width: 80%;
   border-width: 3px 3px 3px 1.5px;
   border-style: solid;
   border-radius: 50px 50px;
@@ -164,4 +164,33 @@ hr {
 .portfolio-item:hover .portfolio-btn {
   opacity: 50%;
   padding-bottom: 30px !important;
+}
+
+.footer-custom {
+  height: auto;
+  background-color: #17251e;
+}
+
+.p-fs {
+  font-size: 14px;
+}
+
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  color: #fff;
+  outline-color: #a3a3a3;
+  border-color: #a3a3a3;
+  border-style: solid;
+}
+
+.btn-circle:hover {
+  color: #fff;
+  background-color: #21c946;
+  border-color: #21c946;
+}
+
+a {
+  text-decoration: none;
 }
